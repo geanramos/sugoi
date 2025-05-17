@@ -9,11 +9,42 @@
  <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>🔴🔵{{ page.title }} | {{ page.cliente }}</title>
+  <title>🔴🔵 {{ page.title }} | {{ page.cliente }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
   <meta name="robots" content="noindex, nofollow">
-  <!--{ include meta.html }
-  { include head.html }-->
+  <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/geanramos/18011975/img/email.png" />
+  <!--[if mso]>
+  <xml>
+  <w:WordDocument xmlns:w="urn:schemas-microsoft-com:office:word">
+  <w:DontUseAdvancedTypographyReadingMail/>
+  </w:WordDocument>
+  <o:OfficeDocumentSettings>
+  <o:PixelsPerInch>96</o:PixelsPerInch>
+  <o:AllowPNG/>
+  </o:OfficeDocumentSettings>
+  </xml>
+  <![endif]-->
+  <!--[if !mso]>
+  <!-->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900" rel="stylesheet" type="text/css">
+  <link href="https://cdn.jsdelivr.net/gh/geanramos/18011975/fonts/google-sans/style.css" rel="stylesheet" type="text/css">
+  <link href="assets/css/estilo.css" rel="stylesheet" type="text/css">
+  <!--
+  <![endif]-->
+  <style>
+  img {
+  max-width: 100%;
+  }
+  a {
+  color: #00f;
+  }
+  a:hover {
+  color: #f03;
+  }
+  </style>
+  <!--[if mso ]>
+  <style>sup, sub { font-size: 100% !important; } sup { mso-text-raise:10% } sub { mso-text-raise:-10% }</style>
+  <![endif]-->
  </head>
  <body align="center" class="body" style="background-color: #ddd; margin: 0; padding: 0; -webkit-text-size-adjust: none; text-size-adjust: none;">
  <!-- Preheader invisível para pré-visualização no e-mail -->
@@ -41,7 +72,7 @@
                <tr>
                 <td align="center" class="pad">
                  <h2 align="center" style="margin: 0; color: #00f; direction: ltr; font-family: 'Roboto', Tahoma, Verdana, Segoe, sans-serif; font-size: 24px; font-weight: 700; letter-spacing: normal; line-height: 1.2; text-align: center; margin-top: 0; margin-bottom: 0; mso-line-height-alt: 29px;">
-                  <span align="center" class="tinyMce-placeholder" style="word-break: break-word;">🔴🔵{{ page.title }}<br>
+                  <span align="center" class="tinyMce-placeholder" style="word-break: break-word;">🔴🔵 {{ page.title }} | {{ page.cliente }}<br>
                   </span>
                  </h2>
                 </td>

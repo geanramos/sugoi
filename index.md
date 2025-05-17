@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Seja Bem Vindo, a Next Job!
+title: Next Job!
 ---
 <table align="center" class="list_block block-6" width="100%" border="0" cellpadding="10" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word; color: #292f33; direction: ltr; font-family: 'Roboto', Tahoma, Verdana, Segoe, sans-serif; font-size: 14px; font-weight: 400; letter-spacing: 0px; line-height: 1.2; text-align: left; mso-line-height-alt: 17px;">
  <tr>
