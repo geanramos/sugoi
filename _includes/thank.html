@@ -1,0 +1,19 @@
+
+              <table align="center" class="paragraph_block block-8" width="100%" border="0" cellpadding="10" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;">
+               <tr>
+                <td align="center" class="pad">
+                 <div style="color:#292f33;direction:ltr;font-family:'Roboto', Tahoma, Verdana, Segoe, sans-serif;font-size:14px;font-weight:400;letter-spacing:0px;line-height:1.2;text-align:left;mso-line-height-alt:17px;">
+                  <p style="margin: 0; margin-bottom: 16px;">Agradeço desde já a oportunidade e aguardo um retorno. &nbsp; <br>
+                   <br>Atenciosamente,
+                  </p>
+                  <p style="margin: 0;">
+                   <strong>{{ page.cliente }}</strong> &nbsp;<br />
+                    {% assign wzap = page.fone %}
+                    {% assign linkzap = wzap | replace: "(", "" | replace: ")", "" | replace: " ", "" | replace: "-", "" %}
+                    📞 <a href="https://wa.me/55{{ linkzap }}?text=Ola%2C%20quero%20lhe%20contratar.%20%23nextjob" target="_blank">{{ page.fone }}</a> &nbsp;<br />
+                    📧 {{ page.email }}
+                  </p>
+                 </div>
+                </td>
+               </tr>
+              </table>

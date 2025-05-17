@@ -1,0 +1,57 @@
+<script>
+  function gcr() {
+    let title = encodeURIComponent("{{ page.title | escape }}");
+    let url = encodeURIComponent("{{ page.url | absolute_url }}");
+    let note = encodeURIComponent("{{ page.description | default: site.description }}");
+
+    // Criando os links de compartilhamento
+    document.getElementById("zap").href = `https://api.whatsapp.com/send?text=${title}%20:%20${url}`;
+    document.getElementById("bs").href = `https://bsky.app/intent/compose?text=${title}%20${note}%20${url}`;
+    document.getElementById("thr").href = `https://www.threads.com/intent/post?text=${title}%20${url}`;
+    document.getElementById("tw").href = `https://twitter.com/intent/tweet?text=${title}%20${url}`;
+    document.getElementById("fb").href = `https://www.facebook.com/sharer/sharer.php?u=${url}`;
+    document.getElementById("gm").href = `https://mail.google.com/mail/u/0/?ui=2&fs=1&tf=cm&su=${title}&body=${url}%20${note}`;
+  }
+</script>
+              <table align="center" class="social_block block-7" width="100%" border="0" cellpadding="5" cellspacing="0" role="presentation" style=" text-align: center; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+               <tr>
+                <td align="center" class="pad">
+                 <div class="alignment" align="center">
+                  <table align="center" class="social-table" width="216px" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; display: inline-block;">
+                   <tr>
+                    <td align="center" style="padding:0 2px 0 2px;">
+                     <a id="fb" href="#" onclick="gcr()" target="_blank">
+                      <img src="https://geanramos.com.br/img/facebook.png" width="32" height="32" alt="facebook" title="facebook" style="display: block; height: auto; border: 0;">
+                     </a>
+                    </td>
+                    <td align="center" style="padding:0 2px 0 2px;">
+                     <a id="gm" href="#" onclick="gcr()" target="_blank">
+                      <img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico" width="32" height="32" alt="Gmail" title="Gmail" style="display: block; height: auto; border: 0;">
+                     </a>
+                    </td>
+                    <td align="center" style="padding:0 2px 0 2px;">
+                     <a id="thr" href="#" onclick="gcr()" target="_blank">
+                      <img src="https://geanramos.com.br/img/threads.png" width="32" height="32" alt="Threads" title="Threads" style="display: block; height: auto; border: 0;">
+                     </a>
+                    </td>
+                    <td align="center" style="padding:0 2px 0 2px;">
+                     <a id="tw" href="#" onclick="gcr()" target="_blank">
+                      <img src="https://geanramos.com.br/img/twitter.png" width="32" height="32" alt="twitter" title="twitter" style="display: block; height: auto; border: 0;">
+                     </a>
+                    </td>
+                    <td align="center" style="padding:0 2px 0 2px;">
+                     <a id="bs" href="#" onclick="gcr()" target="_blank">
+                      <img src="https://geanramos.com.br/img/bluesky.png" width="32" height="32" alt="Bluesky" title="Bluesky" style="display: block; height: auto; border: 0;">
+                     </a>
+                    </td>
+                    <td align="center" style="padding:0 2px 0 2px;">
+                     <a id="zap" href="#" onclick="gcr()" target="_blank">
+                      <img src="https://geanramos.com.br/img/whatsapp.png" width="32" height="32" alt="WhatsApp" title="WhatsApp" style="display: block; height: auto; border: 0;">
+                     </a>
+                    </td>
+                   </tr>
+                  </table>
+                 </div>
+                </td>
+               </tr>
+              </table>

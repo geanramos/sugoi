@@ -1,0 +1,60 @@
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}" />
+  <meta name="keywords" content="{{ page.tags | join: ', ' | default: 'Empregos em Castanhal, Vagas de trabalho Castanhal PA, Oportunidades de emprego Castanhal, Cadastro de vagas Castanhal, Trabalho no Pará, Empresas contratando em Castanhal, Vagas abertas Castanhal, Emprego urgente Castanhal, Recrutamento e seleção Castanhal, Trabalhar em Castanhal PA.' }}" />
+  <meta name="author" content="Gean Ramos" />
+  <meta name="robots" content="index, follow" />
+{% if page.image %}
+  <meta name="image" content="{{ page.image | absolute_url }}" />
+{% else %}
+  <meta name="image" content="https://picsum.photos/600/363" />
+{% endif %}
+  <link rel="canonical" href="{{ page.url | absolute_url }}" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ page.title | escape }}" />
+  <meta property="og:description" content="{{ page.description | default: site.description | escape }}" />
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />  
+{% if page.image %}
+  <meta property="og:image" content="{{ page.image | absolute_url }}" />
+{% else %}
+  <meta property="og:image" content="https://picsum.photos/600/363" />
+{% endif %}
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{ page.title | escape }}" />
+  <meta name="twitter:description" content="{{ page.description | default: site.description | escape }}" />
+{% if page.image %}
+  <meta name="twitter:image" content="{{ page.image | absolute_url }}" />
+{% else %}
+  <meta name="twitter:image" content="https://picsum.photos/600/363" />
+{% endif %}
+  <!-- CSS -->
+  <link rel="stylesheet" href="./assets/css/estilo.css">
+
+  <!-- favicon -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://fonts.gstatic.com/s/e/notoemoji/16.0/1f4bc/32.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://fonts.gstatic.com/s/e/notoemoji/16.0/1f4bc/32.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://fonts.gstatic.com/s/e/notoemoji/16.0/1f4bc/32.png">
+  <link rel="apple-touch-icon-precomposed" href="https://fonts.gstatic.com/s/e/notoemoji/16.0/1f4bc/32.png">
+  <link rel="apple-touch-icon" href="https://fonts.gstatic.com/s/e/notoemoji/16.0/1f4bc/32.png">
+  <link rel="shortcut icon" href="https://fonts.gstatic.com/s/e/notoemoji/16.0/1f4bc/32.png" type="image/x-icon">
+  <link rel="shortcut icon" href="https://fonts.gstatic.com/s/e/notoemoji/16.0/1f4bc/32.png">
+  <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://fonts.gstatic.com/s/e/notoemoji/16.0/1f4bc/32.png">
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#0000ff">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#0000ff">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#0000ff">
+	
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TZBPFV014K"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-TZBPFV014K', {
+    'cookie_domain': 'auto'
+  });
+  </script>
