@@ -2,6 +2,8 @@
 layout: default
 title: Next Job!
 ---
+{% include header.html %}
+<div class="spacer_block block-3" style="height: 20px; line-height: 20px; font-size: 1px;">&#8202;</div>
 <table align="center" class="heading_block block-4" width="100%" border="0" cellpadding="10" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
  <tr>
   <td style="display: flex; justify-content: center; align-items: center; position: relative; width: 100%;">

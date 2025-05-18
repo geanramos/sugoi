@@ -1,0 +1,16 @@
+          <!-- Inicio image_block block-2 _includes/header.html-->
+          {% assign wzap = page.fone %}
+          {% assign linkzap = wzap | replace: "(", "" | replace: ")", "" | replace: " ", "" | replace: "-", "" %}
+              <table align="center" class="image_block block-2" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+               <tr align="center">
+                <td align="center" class="pad" style="width:100%;padding-right:0px;padding-left:0px;">
+                 <div class="alignment" align="center">
+                  <div align="center" style="max-width: 80px;">                   
+                   <a href="./" target="_self" style="outline:none" tabindex="-1">
+                    <img src="{% if page.avatar %}{{ page.avatar }}{% else %}{{ site.avatar }}{% endif %}" style="display: block; width: 80px; height: 80px; border-radius: 45px 45px 5px 45px; object-fit: cover; border: 0;" alt="{{ page.cliente }}" title="{{ page.cliente }}">
+                   </a>
+                  </div>
+                 </div>
+                </td>
+               </tr>
+              </table>
