@@ -16,3 +16,4 @@ plugins:
 collections:
   tags:
     output: true
+versao: 1.0.13
