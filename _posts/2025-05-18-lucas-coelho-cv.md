@@ -8,8 +8,6 @@ cliente: "Next Job"
 email: "nextjob777@gmail.com"
 fone: "(91) 98251-0830"
 ---
-Assunto: Seu currículo no Google Docs
-
 Oi Lucas,
 
 Criei seu currículo no Google Docs e estou compartilhando o link com você.
