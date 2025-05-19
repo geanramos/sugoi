@@ -11,6 +11,7 @@ theme: minima
 markdown: kramdown
 paginate: 10
 plugins:
+  - jekyll-minifier
   - jekyll-feed
   - jekyll-seo-tag
 collections:
