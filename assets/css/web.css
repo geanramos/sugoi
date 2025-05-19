@@ -1,0 +1,7 @@
+hr {
+	border: none;
+	height: 40px;
+	background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640.94 14.77"><path d="m1,7.39C94.46-.99,191.83-1.26,320.47,7.39c128.64,8.65,226.01,8.38,319.47,0" fill="none" stroke="%23000" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>') center center no-repeat;
+	background-size: contain;
+	/*! margin: 1rem auto; */
+}
