@@ -10,10 +10,10 @@ fone: "(91) 98251-0830"
 ---
 Oi Lucas,
 
-Criei seu currículo no Google Docs e estou compartilhando o link com você.
+Criei seu currículo no Google Docs e estou compartilhando [o link](https://docs.google.com/document/d/1GCC1fTuPWFdSX9I-xipoFbYmEMR12bgkTZTJlkiJFjk/edit?usp=sharing_eip_se_dm&ts=682a8202) com você.
 Já configurei o acesso para que você possa editar diretamente, então sinta-se à vontade para fazer ajustes.
 
-<center><a href="https://docs.google.com/document/d/1GCC1fTuPWFdSX9I-xipoFbYmEMR12bgkTZTJlkiJFjk/edit?usp=sharing" class="btn" style="display: inline-block;padding: 8px 25px;color: white;font-size: 14px;text-decoration: none;border-radius: 4px;text-align: center;cursor: pointer;display: inline-block;font-weight: 400;font-family: 'Roboto', Tahoma, Verdana, Segoe, sans-serif;background-color: #00f;">Editar Currículo</a></center>
+<center><a href="https://docs.google.com/document/d/1GCC1fTuPWFdSX9I-xipoFbYmEMR12bgkTZTJlkiJFjk/edit?usp=sharing_eip_se_dm&ts=682a8202" class="btn" style="display: inline-block;padding: 8px 25px;color: white;font-size: 14px;text-decoration: none;border-radius: 4px;text-align: center;cursor: pointer;display: inline-block;font-weight: 400;font-family: 'Roboto', Tahoma, Verdana, Segoe, sans-serif;background-color: #00f;">Editar Currículo</a></center>
 
 Só peço que tenha cuidado ao editar, pois este é o documento que será enviado para as empresas.
 **Qualquer alteração será refletida na versão final**, então revise tudo com atenção antes de compartilhar!
