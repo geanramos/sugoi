@@ -18,7 +18,7 @@ A partir de agora, você pode me mandar todas as mensagens, piadas, memes e até
 
 Então, se você precisar de algo ou só quiser bater um papo, me encontra por lá. Tô te esperando! 😎
 
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXp3N3E3bWM2eWlsNWlmNzRvOTEzdWo3NTlmczNzcmluNms5a3A4bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26tn9CREfvxcBzG3C/giphy.gif" alt="Parabens!" style="max-width: 450px;border-radius: 4px;">
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXp3N3E3bWM2eWlsNWlmNzRvOTEzdWo3NTlmczNzcmluNms5a3A4bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26tn9CREfvxcBzG3C/giphy.gif" alt="Parabens!" style="width: 100%;border-radius: 4px;">
 
 **{{ page.cliente }}** – Porque procurar emprego não precisa ser complicado!  
   
